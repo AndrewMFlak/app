@@ -1,0 +1,10 @@
+.jumbotron {
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    position: relative;
+    margin: auto 0;
+    height: 20%;
+    width: 60%;
+    /* top: 300px; */
+}

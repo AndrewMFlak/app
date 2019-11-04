@@ -23,7 +23,7 @@ const Nav = () =>
                             Login
                     </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link className="nav-link hvr-fade" to={routes.SPOT}>
                             Favorite Spots
                     </Link>
@@ -37,7 +37,7 @@ const Nav = () =>
                         <Link className="nav-link hvr-fade" to={routes.HOME}>
                             Home
                     </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>
