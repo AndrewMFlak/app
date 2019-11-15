@@ -1,7 +1,20 @@
 .footer {
+    clear: both;
+    overflow: auto;
+    margin: 100px 0 0 0;
     width: 100%;
-    position: fixed;
+    height: 15%;
+    position: absolute;
     left: 0;
     bottom: 0;
-    text-align: right;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+}
+.about {
+    clear: both;
+    overflow: auto;
+    color: orange;
 }

@@ -3,19 +3,21 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import home from "./pages/home/home";
 import Nav from "./components/Nav";
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 //routes.js used for userAuth
 // import * as routes from '../src/constants/routes';
 import './App.css';
 // import { RefCountDisposable } from 'rx';
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   // this.state = {
-  //   //   authUser: null,
-  //   // };
-  // }
+  constructor(props) {
+    super(props);
+     this.state = {
+       authUser: null,
+     };
+  }
+
+
   render() {
     return (
       <Router>
@@ -24,7 +26,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={home} />
           </Switch>
-          {/* <Footer /> */}
+          <Footer/>
         </div>
       </Router>
     );
